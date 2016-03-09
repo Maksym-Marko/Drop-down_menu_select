@@ -1,0 +1,22 @@
+.block-select{
+	width: 200px;	
+	display: block;
+	border: 1px solid blue;
+}
+.select-conclusion{
+	width: 100%;
+	display: block;
+	padding: 10px;
+}
+.select-par{
+	width: 100%;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+.select-par li{
+	list-style-type: none;
+	display: block;
+	padding: 10px;
+	cursor: pointer;
+}
