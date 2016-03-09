@@ -8,24 +8,41 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
+	<!-- jScrollPane -->
+	<link type="text/css" href="add/jscrollpane/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
 
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
 
 <div class="block-select">
+	<input type="hidden" name="par" value="" class="par-input"/>
 	<span class="select-conclusion">
 		Выберите пункт:
 	</span>
-	<ul class="select-par">
+	<ul class="select-par scroll-pane">
 		<li>Пункт 1</li>
 		<li>Пункт 2</li>
 		<li>Пункт 3</li>
 		<li>Пункт 4</li>
+		<li>Пункт 5</li>
+		<li>Пункт 6</li>
+		<li>Пункт 7</li>
+		<li>Пункт 8</li>
+		<li>Пункт 9</li>
+		<li>Пункт 10</li>
 	</ul>
 </div>
 
 	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>	
+	
+	<!-- jScrollPane -->
+	<script type="text/javascript" src="add/jscrollpane/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="add/jscrollpane/jquery.jscrollpane.min.js"></script>	
+	<script>$(document).ready(function(){$('.scroll-pane').jScrollPane(); });</script>
+	
 	<script type="text/javascript" src="js/select.js"></script>	
 </body>
 </html>
